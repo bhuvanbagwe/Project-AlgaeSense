@@ -7,6 +7,7 @@ Photobioreactors already provide the physical environment for growing algae. Our
 A peristaltic pump periodically moves a small sample of the culture into an imaging chamber, where the microscope captures images. The UNO Q processes these images locally to detect algae, estimate concentration, analyse growth and eventually identify contamination.
 At the same time, AlgaeSense collects environmental information such as pH, dissolved CO₂, turbidity, TDS, temperature and humidity. This information is combined with the vision system to control LED lighting, aeration, agitation, nutrient dosing, cooling and eventually harvesting.
 The basic idea is:
+
                     ALGAE
                       ↓
               🔬 USB Microscope
@@ -26,6 +27,7 @@ The basic idea is:
         ┌───────┬─────┼─────┬───────┐
         ↓       ↓     ↓     ↓       ↓
        LEDs   Air   Agitate Nutrients Harvest
+       
 The important distinction: AI is not replacing the photobioreactor. AI is turning the photobioreactor into an autonomous system.
 The long-term vision is to make this intelligence modular enough to operate different reactor designs, from small hobby systems and educational setups to laboratories, farms and industrial cultivation systems, with changes mainly to operating parameters and hardware interfaces.
 
