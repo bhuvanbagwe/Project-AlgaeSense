@@ -18,7 +18,7 @@ The basic idea is:
                       ↓
         ┌─────────────┴─────────────┐
         ↓                           ↓
-   Environmental               Growth analysis
+    Environmental               Growth analysis
      Sensors                        ↓
         └─────────────┬─────────────┘
                       ↓
@@ -27,6 +27,7 @@ The basic idea is:
         ┌───────┬─────┼─────┬───────┐
         ↓       ↓     ↓     ↓       ↓
        LEDs   Air   Agitate Nutrients Harvest
+       
        
 The important distinction: AI is not replacing the photobioreactor. AI is turning the photobioreactor into an autonomous system.
 The long-term vision is to make this intelligence modular enough to operate different reactor designs, from small hobby systems and educational setups to laboratories, farms and industrial cultivation systems, with changes mainly to operating parameters and hardware interfaces.
