@@ -1,0 +1,320 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1">
+
+<title>AlgaeSense</title>
+
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+
+    background: #edf2ef;
+
+    color: #17221c;
+
+    font-family:
+        Arial,
+        sans-serif;
+}
+
+
+main {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    padding: 22px;
+}
+
+
+header {
+
+    margin-bottom: 16px;
+}
+
+
+h1 {
+
+    margin: 0;
+
+    font-size: 36px;
+}
+
+
+.subtitle {
+
+    margin-top: 3px;
+
+    color: #66736b;
+
+    font-size: 14px;
+}
+
+
+.card {
+
+    background: white;
+
+    border:
+        1px solid #d8e1db;
+
+    border-radius: 12px;
+
+    padding: 16px;
+}
+
+
+.camera {
+
+    width: 100%;
+
+    display: block;
+
+    background: #111;
+
+    border-radius: 8px;
+}
+
+
+.info-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 10px;
+
+    margin-top: 12px;
+}
+
+
+.info {
+
+    background: white;
+
+    border:
+        1px solid #d8e1db;
+
+    border-radius: 8px;
+
+    padding: 12px;
+}
+
+
+.label {
+
+    font-size: 11px;
+
+    color: #708078;
+
+    text-transform: uppercase;
+
+    margin-bottom: 4px;
+}
+
+
+.value {
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
+
+
+.description {
+
+    margin-top: 14px;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+
+    color: #56625a;
+}
+
+
+.status-dot {
+
+    width: 9px;
+
+    height: 9px;
+
+    background: #1e9a50;
+
+    display: inline-block;
+
+    border-radius: 50%;
+
+    margin-right: 5px;
+}
+
+
+.note {
+
+    margin-top: 14px;
+
+    padding: 12px;
+
+    background: #f5f8f6;
+
+    border-radius: 7px;
+
+    font-size: 12px;
+
+    color: #657269;
+}
+
+
+@media(max-width: 700px) {
+
+    .info-grid {
+
+        grid-template-columns:
+            1fr 1fr;
+    }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<main>
+
+
+<header>
+
+<h1>
+AlgaeSense
+</h1>
+
+<div class="subtitle">
+Autonomous algae cultivation and microscopic monitoring
+</div>
+
+</header>
+
+
+<div class="card">
+
+<h2>
+Live USB Microscope
+</h2>
+
+<img
+class="camera"
+src="/camera"
+alt="AlgaeSense microscope live feed">
+
+
+<div class="description">
+
+<span class="status-dot"></span>
+
+Live microscope feed from the Arduino UNO Q Linux side.
+
+The microscope observes a culture sample drawn into
+the AlgaeSense viewing chamber.
+
+</div>
+
+</div>
+
+
+<div class="info-grid">
+
+
+<div class="info">
+
+<div class="label">
+System
+</div>
+
+<div class="value">
+AlgaeSense
+</div>
+
+</div>
+
+
+<div class="info">
+
+<div class="label">
+Controller
+</div>
+
+<div class="value">
+Arduino UNO Q
+</div>
+
+</div>
+
+
+<div class="info">
+
+<div class="label">
+Vision
+</div>
+
+<div class="value">
+USB Microscope
+</div>
+
+</div>
+
+
+<div class="info">
+
+<div class="label">
+Analysis
+</div>
+
+<div class="value">
+OpenCV
+</div>
+
+</div>
+
+
+</div>
+
+
+<div class="note">
+
+The dashboard is intentionally limited to the live
+microscope feed.
+
+Sampling, contour detection, measurements,
+actuator control and system diagnostics run on the
+Arduino UNO Q and are displayed through the
+application / serial console.
+
+</div>
+
+
+</main>
+
+
+</body>
+
+</html>
