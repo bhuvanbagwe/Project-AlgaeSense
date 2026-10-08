@@ -209,7 +209,7 @@ AlgaeSense
 </h1>
 
 <div class="subtitle">
-Autonomous algae cultivation and microscopic monitoring
+Algae cultivation prototype with live microscope monitoring
 </div>
 
 </header>
@@ -231,10 +231,12 @@ alt="AlgaeSense microscope live feed">
 
 <span class="status-dot"></span>
 
-Live microscope feed from the Arduino UNO Q Linux side.
+Live USB microscope stream served from the Linux side
+of the Arduino UNO Q.
 
-The microscope observes a culture sample drawn into
-the AlgaeSense viewing chamber.
+A peristaltic pump runs on a fixed timer to draw a
+culture sample into the AlgaeSense viewing chamber,
+where it can be watched on this stream.
 
 </div>
 
@@ -290,7 +292,7 @@ Analysis
 </div>
 
 <div class="value">
-OpenCV
+Planned (OpenCV)
 </div>
 
 </div>
@@ -301,13 +303,16 @@ OpenCV
 
 <div class="note">
 
-The dashboard is intentionally limited to the live
-microscope feed.
+This dashboard shows the live microscope stream only.
 
-Sampling, contour detection, measurements,
-actuator control and system diagnostics run on the
-Arduino UNO Q and are displayed through the
-application / serial console.
+Currently running: the camera stream and a timed
+sampling pump (status messages appear in the
+application console).
+
+Planned, not yet implemented: image analysis
+(e.g. OpenCV contour detection), growth measurements,
+sensor readings, logging and automated control
+decisions.
 
 </div>
 
