@@ -55,8 +55,8 @@ Thanks for your interest. AlgaeSense is a small maker project. Contributions of 
 
 | Label | Use for |
 |---|---|
-| `good first issue` / `good-first-issue` | Small, well-defined tasks for newcomers |
-| `help wanted` / `help-wanted` | Tasks where outside expertise is welcome |
+| `good first issue` | Small, well-defined tasks for newcomers |
+| `help wanted` | Tasks where outside expertise is welcome |
 | `documentation` | Docs-only changes |
 | `hardware` | Mechanical, electrical, wiring, CAD |
 | `firmware` | MCU sketch (`sketch/`) |
