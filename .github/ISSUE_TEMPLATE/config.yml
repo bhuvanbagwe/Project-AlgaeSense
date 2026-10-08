@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: AlgaeSense on Instructables (10 L build write-up)
+    url: https://www.instructables.com/AlgaeSense-Grow-Algae-Automatically-As-an-Off-Grid
+    about: Background on the 10 L prototype. Please file bugs and ideas here on GitHub.
